@@ -3,7 +3,6 @@ General selectors
 */
 * {
   box-sizing: border-box;
-
 }
 
 #introduction, #portfolio, #contact {
