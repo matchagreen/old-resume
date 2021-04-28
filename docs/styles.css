@@ -14,7 +14,7 @@ General selectors
 }
 
 body {
-  background-image: url("iceland2.jpg");
+  background-image: url("./Gallery/iceland2.jpg");
   background-size: cover;
   background-position: 0% 60%;
   background-attachment: fixed;
@@ -29,8 +29,6 @@ body {
 
 .introduction, .portfolio, .contact {
   height: calc(100vh - 50px);
-  min-height: 588px;
-  min-width: 360px;
 }
 
 .introduction {
