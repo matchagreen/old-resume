@@ -31,12 +31,7 @@ body {
 }
 
 .introduction {
-  padding: 30px;
-}
-
-.introduction .box {
-  width: 50%;
-  min-width: 300px;
+  padding-top: 30px;
 }
 
 .portfolio {
