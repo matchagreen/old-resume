@@ -5,10 +5,6 @@ General selectors
   box-sizing: border-box;
 }
 
-body {
-  overflow: hidden;
-}
-
 #introduction, #portfolio, #contact {
   display: block;
   position: relative;
@@ -17,11 +13,9 @@ body {
 }
 
 .parallax-main {
-  height: calc(100vh - 52px);
   background-image: url("./Gallery/iceland2.jpg");
-  overflow-x: hidden;
-  overflow-y: auto;
   background-size: cover;
+  background-attachment: fixed;
   background-position: 25% 80%;
 }
 
@@ -38,6 +32,11 @@ body {
 
 .introduction {
   padding: 30px;
+}
+
+.intro-block {
+  width: 500px !important;
+  max-width: calc(100vw - 60px);
 }
 
 .portfolio {
@@ -70,4 +69,10 @@ body {
 
 .copyright a {
   color: gray;
+}
+
+@media (hover: none) {
+   .homeHero {
+       background-attachment: initial;
+   }
 }
