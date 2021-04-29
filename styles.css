@@ -13,10 +13,12 @@ General selectors
 }
 
 .parallax-main {
+  height: calc(100vh - 52px);
   background-image: url("./Gallery/iceland2.jpg");
+  overflow-x: hidden;
+  overflow-y: auto;
   background-size: cover;
-  background-position: 0% 70%;
-  background-attachment: fixed;
+  background-position: center;
 }
 
 .title-margin {
