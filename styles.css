@@ -63,6 +63,6 @@
 
 @media (hover: none) {
   .parallax-main {
-     background-attachment: fixed;
+     background-attachment: initial;
   }
 }
