@@ -16,7 +16,7 @@ General selectors
   height: calc(100vh - 52px);
   background-image: url("./Gallery/iceland2.jpg");
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: visible;
   background-size: cover;
   background-position: 25% 80%;
 }
