@@ -62,7 +62,7 @@
 }
 
 @media (hover: none) {
-   .homeHero {
-       background-attachment: initial;
-   }
+  .homeHero {
+     background-attachment: fixed;
+  }
 }
