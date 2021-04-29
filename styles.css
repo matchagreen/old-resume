@@ -13,6 +13,7 @@ General selectors
 }
 
 body {
+  height: 100vh;
   background-image: url("./Gallery/iceland2.jpg");
   background-size: cover;
   background-position: 0% 70%;
