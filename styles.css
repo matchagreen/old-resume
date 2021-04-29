@@ -61,7 +61,7 @@
   color: gray;
 }
 
-@media (hover: none) {
+@media (pointer: coarse) {
    .parallax-main {
        background-attachment: initial;
    }
