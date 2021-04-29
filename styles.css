@@ -5,6 +5,10 @@ General selectors
   box-sizing: border-box;
 }
 
+body {
+  overflow: hidden;
+}
+
 #introduction, #portfolio, #contact {
   display: block;
   position: relative;
@@ -16,7 +20,7 @@ General selectors
   height: calc(100vh - 52px);
   background-image: url("./Gallery/iceland2.jpg");
   overflow-x: hidden;
-  overflow-y: visible;
+  overflow-y: auto;
   background-size: cover;
   background-position: 25% 80%;
 }
