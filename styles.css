@@ -18,7 +18,7 @@ General selectors
   overflow-x: hidden;
   overflow-y: auto;
   background-size: cover;
-  background-position: center;
+  background-position: 0% 65%;
 }
 
 .title-margin {
