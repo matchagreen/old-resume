@@ -12,8 +12,7 @@ General selectors
   visibility: hidden;
 }
 
-body {
-  height: 100vh;
+.parallax-main {
   background-image: url("./Gallery/iceland2.jpg");
   background-size: cover;
   background-position: 0% 70%;
@@ -40,11 +39,11 @@ body {
 }
 
 .contact {
-  background: rgba(0, 0, 0, .6) !important;
+  background: rgba(0, 0, 0, 0.6) !important;
 }
 
 .contact img {
-  height: 40vh;
+  height: 30vh;
   padding: 15px;
   border-radius: 10%;
   border: solid;
