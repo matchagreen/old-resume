@@ -29,8 +29,12 @@
   max-width: calc(100vw - 60px);
 }
 
+.box {
+  background-color: rgb(245, 245, 245) !important;
+}
+
 .portfolio {
-  background-color: #fff;
+  background-color: rgb(245, 245, 245);
 }
 
 .contact {
