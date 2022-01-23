@@ -16,7 +16,7 @@
   background-position: 25% 80%;
 }
 
-.introduction, .portfolio, .contact {
+.introduction, .contact {
   height: calc(100vh - 52px);
 }
 
@@ -35,6 +35,16 @@
 
 .portfolio {
   background-color: rgb(245, 245, 245);
+}
+
+.portfolio img {
+  border-radius: 2%;
+  max-height: 325px;
+}
+
+
+.project-title {
+  margin-bottom: 30px;
 }
 
 .contact {
