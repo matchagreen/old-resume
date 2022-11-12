@@ -1,5 +1,6 @@
 <script lang="ts">
   import AboutMe from "./lib/AboutMe.svelte"
+    import Contact from "./lib/Contact.svelte";
   import NavBar from "./lib/NavBar.svelte";
   const refs = [
     {name: 'About Me', ref: '#about-me'},
@@ -13,9 +14,10 @@
   <NavBar {refs}/>
   <div class='parallax-main'>
     <a id='about-me'/>
-      <AboutMe
-        onButtonPress={onModalOpen}
-      />
+    <AboutMe
+      onButtonPress={onModalOpen}
+    />
+    <Contact/>
   </div>
 
 
@@ -47,7 +49,7 @@
     background-image: url('assets/iceland.jpg');
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    background-attachment: fixed;
   }
   /* .logo {
     height: 6em;
