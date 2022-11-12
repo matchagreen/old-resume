@@ -1,19 +1,25 @@
 <script lang="ts">
+  import AboutMe from "./lib/AboutMe.svelte"
+  import NavBar from "./lib/NavBar.svelte";
+  const refs = [
+    {name: 'About Me', ref: '#about-me'},
+    {name: 'Projects', ref: '#projects'},
+    {name: 'Contact', ref: '#contact'},
+  ]
 
-  // import svelteLogo from './assets/svelte.svg'
-  // import Counter from './lib/Counter.svelte'
-
-    import NavBar from "./lib/NavBar.svelte";
-    const refs = [
-      {name: 'About Me', ref: '#test'},
-      {name: 'Projects', ref: '#test'},
-      {name: 'Contact', ref: '#test'},
-    ]
-
+  const onModalOpen = () => console.log('Hello world')
 </script>
 
-<main>
   <NavBar {refs}/>
+  <div class='parallax-main'>
+    <a id='about-me'/>
+      <AboutMe
+        onButtonPress={onModalOpen}
+      />
+  </div>
+
+
+
   <!-- <div>
     <a href="https://vitejs.dev" target="_blank" rel="noreferrer"> 
       <img src="/vite.svg" class="logo" alt="Vite Logo" />
@@ -35,10 +41,9 @@
   <p class="read-the-docs">
     Click on the Vite and Svelte logos to learn more
   </p> -->
-</main>
 
 <style>
-  main {
+  .parallax-main {
     background-image: url('assets/iceland.jpg');
     background-size: cover;
     background-position: center;
