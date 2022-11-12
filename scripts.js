@@ -4,10 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const html = document.querySelector('html');
   const modalButton = document.getElementById('modal-button');
   const modalAboutMe = document.getElementById('modal-about-me')
-  const modalNotification = document.getElementById('modal-notification')
-
-  modalNotification.classList.add('is-active');
-  html.classList.add('is-clipped');
 
 
   modalButton.addEventListener('click', () => {
