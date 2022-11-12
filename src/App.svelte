@@ -1,22 +1,31 @@
 <script lang="ts">
-  import iceland from './assets/iceland.jpg'
+
   // import svelteLogo from './assets/svelte.svg'
   // import Counter from './lib/Counter.svelte'
+
+    import NavBar from "./lib/NavBar.svelte";
+    const refs = [
+      {name: 'About Me', ref: '#test'},
+      {name: 'Projects', ref: '#test'},
+      {name: 'Contact', ref: '#test'},
+    ]
+
 </script>
 
 <main>
-  <div>
+  <NavBar {refs}/>
+  <!-- <div>
     <a href="https://vitejs.dev" target="_blank" rel="noreferrer"> 
       <img src="/vite.svg" class="logo" alt="Vite Logo" />
     </a>
-    <!-- <a href="https://svelte.dev" target="_blank" rel="noreferrer"> 
+    <a href="https://svelte.dev" target="_blank" rel="noreferrer"> 
       <img src={iceland} class="logo svelte" alt="Svelte Logo" />
-    </a> -->
+    </a>
   </div>
   <h1>Vite + Svelte</h1>
 
   <div class="card">
-    <!-- <Counter /> -->
+    <Counter />
   </div>
 
   <p>
@@ -25,7 +34,7 @@
 
   <p class="read-the-docs">
     Click on the Vite and Svelte logos to learn more
-  </p>
+  </p> -->
 </main>
 
 <style>
